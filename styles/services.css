@@ -1,0 +1,496 @@
+
+/*NAVBAR*/
+	#web-nav {
+		padding: 3px 80px 3px 80px;
+		background-color: #04387C;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		width: 75px;
+	}
+
+	#web-nav a {
+		text-decoration: none;
+		color: #FFF;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 0.48px;
+	}
+
+	#web-nav li {
+	    text-decoration: none;
+	    display: inline;
+	    margin-left: 42px;
+	}
+
+	#web-nav a:hover {
+		color: #F47420;
+	}
+
+	#search {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.search {
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+
+	.searchbar {
+		width: 200px;
+		border-radius: 100px;
+		background-color: #EAF3F3;
+		margin-left: 14px;
+		padding: 0px 13px;
+		display: flex;
+		align-items: center;
+	}
+
+
+/*WORKSHOPS*/
+	.workshop-img {
+		width: 100%;
+		height: 554px;
+	}
+
+	#header-img {
+		position: relative;
+  		text-align: center;
+	}
+
+	.img-txt {
+		position: absolute;
+		bottom: 196px;
+		top: 196px;
+		right: 465px;
+		left: 465px;
+	}
+
+	.credit-txt {
+		position: absolute;
+		bottom: 50px;
+		left: 81px;
+		color: #EAF3F3;
+		font-family: "Albert Sans";
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.img-txt h1 {
+		color: #FFF;
+		font-family: "Afacad", sans-serif;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		margin-bottom: 48px;
+	}
+	
+	.img-txt button {
+		padding: 16px 45px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 20px;
+		background: #F47420;
+		border: none;
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+
+/*BIKES&PARTS*/
+	#bikes-parts {
+		background-color: #272727;
+		padding: 65px 80px 140px 80px;
+	}
+
+	#bikes-parts h2 {
+		color: #F47420;
+		font-family: "Afacad", sans-serif;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 0.96px;
+		margin-bottom: 32px;
+		text-align: center;
+	}
+
+	.expand {
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.sections {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.expand-sections {
+		border-radius: 10px;
+		background-color: #F47420;
+		padding:  0px 68px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 26px;
+		height: 80px;
+		min-width: 375px;
+		max-width: 550px;
+		flex: 1;
+		margin-right: 20px;
+	}
+
+	.expand-sections p {
+		color: #FFF;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+	}
+
+
+/*EVENTS&BOOKINGS*/
+	.events-img {
+		width: 100%;
+		height: 752px;
+	}
+
+	#events-img {
+		position: relative;
+  		text-align: center;
+	}
+
+	.img-txt2 {
+		position: absolute;
+		bottom: 459px;
+		top: 131px;
+		right: 490px;
+		left: 490px;
+	}
+
+	.credit-txt {
+		position: absolute;
+		bottom: 50px;
+		left: 81px;
+		color: #EAF3F3;
+		font-family: "Albert Sans";
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.img-txt2 h1 {
+		color: #FFF;
+		font-family: "Afacad", sans-serif;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		margin-bottom: 48px;
+	}
+	
+	.img-txt2 button {
+		padding: 16px 45px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 20px;
+		background: #F47420;
+		border: none;
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+
+
+/*FOOTER*/
+	#footer {
+		padding: 143px 80px 107px 80px;
+		background-color: #04387C;
+		display: grid;
+		grid-template-columns: 8fr 2fr;
+		column-gap: 206px;
+	}
+
+
+	.foot-title {
+		color: #FFF;
+		font-family: "Afacad", sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 35px;
+		letter-spacing: 0.72px;
+	}
+
+	.foot-text {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 25px;
+	}
+
+	.address {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+	.media {
+		margin-right: 9px;
+		margin-top: 42px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 481px) {
+
+	#mobile-nav {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+	/*NAVBAR*/
+	#web-nav {
+		display: none;
+	}
+
+	#mobile-nav {
+		padding: 14px 25px 14px 25px;
+		background-color: #04387C;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+
+	.logo {
+		width: 40px;
+	}
+
+
+
+	/*WORKSHOPS*/
+	.workshop-img {
+		width: 100%;
+		height: 231px;
+	}
+
+	.img-txt {
+		position: absolute;
+		bottom: 70px;
+		top: 60px;
+		right: 74px;
+		left: 74px;
+	}
+
+	.credit-txt {
+		display: none;
+	}
+
+	.img-txt h1 {
+		font-size: 28px;
+		letter-spacing: 0.84px;
+		margin-bottom: 25px;
+	}
+	
+	.img-txt button {
+		padding: 16px 45px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		background: #F47420;
+		border: none;
+		font-size: 16px;
+	}
+
+
+	/*BIKES&PARTS*/
+	#bikes-parts {
+		padding: 43px 25px 52px 25px;
+	}
+
+	#bikes-parts h2 {
+		font-size: 28px;
+		line-height: 22px;
+		letter-spacing: 0.84px;
+		margin-bottom: 22px;
+		text-align: start;
+	}
+
+	.sections {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.expand-sections {
+		padding: 15px 30px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 11px;
+		min-width: 150px;
+		max-width: 343px;
+	}
+
+	.expand-sections p {
+		font-size: 12px;
+	}
+
+	.plus {
+		width: 12px;
+	}
+
+
+
+	/*EVENTS&BOOKINGS*/
+	.events-img {
+		width: 100%;
+		height: 230px;
+	}
+
+	#events-img {
+		position: relative;
+  		text-align: center;
+	}
+
+	.img-txt2 {
+		position: absolute;
+		bottom: 68px;
+		top: 68px;
+		right: 90px;
+		left: 90px;
+	}
+
+	.credit-txt {
+		display: none;
+	}
+
+	.img-txt2 h1 {
+		font-size: 28px;
+		letter-spacing: 0.84px;
+		margin-bottom: 25px;
+	}
+
+	.img-txt2 button {
+		padding: 16px 45px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		background: #F47420;
+		border: none;
+		font-size: 16px;
+	}
+
+
+
+	/*FOOTER*/
+	#footer {
+		padding: 25px 28PX;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.foot-text {
+		display: none;
+	}
+
+	.foot-title {
+		font-size: 16px;
+		line-height: 22px;
+		letter-spacing: 0.48px;
+		margin-bottom: 20px;
+	}
+
+	.address {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+	.foot-right {
+		display: flex;
+		flex-direction: row;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+}
