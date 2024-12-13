@@ -4,18 +4,243 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bike Edmonton | Home</title>
+
+	<!--STYLES-->
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/style.css">
+
+	<!--FONTS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
 
-	<header>
-		<h1>hello world</h1>
-		<p> Nice to meet you <p>
-		<p>what does this do</p>
-	</header>
 
-	<section></section>
+	<!--NAVBAR-->
+	<nav id="web-nav">
+		<!--LOGO-->
+		<div><img src="images/logo.png" class="logo" alt="bike edmonton logo"></div>
+		<!--NAVIGATION-->
+		<ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li><a href="learnmore.html">Learn More</a></li>
+        </ul>
+        <!--SEARCH-->
+        <div id="search">
+        	<p class="search">Search:</p>
+        	<div class="searchbar">
+        		<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M12.8333 12.8333L11.6666 11.6666M12.25 6.70829C12.25 9.76887 9.76887 12.25 6.70829 12.25C3.64771 12.25 1.16663 9.76887 1.16663 6.70829C1.16663 3.64771 3.64771 1.16663 6.70829 1.16663C9.76887 1.16663 12.25 3.64771 12.25 6.70829Z" stroke="#F47420" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</div>
+		</div>
+	</nav>
 
-	<section></section>
+	<nav id="mobile-nav">
+		<div class="nav-left">
+			<img src="images/Menu Hamburger.png" class="hamburger">
+			<img src="images/logo.png" class="logo" alt="bike edmonton logo">
+		</div>
+		<div>
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M22 22L20 20M21 11.5C21 16.7467 16.7467 21 11.5 21C6.25329 21 2 16.7467 2 11.5C2 6.25329 6.25329 2 11.5 2C16.7467 2 21 6.25329 21 11.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+			</svg>
+		</div>
+	</nav>
+
+
+	<!--HEADER-->
+	<section id="header">
+		<!--Text-->
+		<div class="text">
+			<h1>Bike Edmonton</h1>
+			<p class="header-text">Whether you ride once a week or year-round, Bike Edmonton gives you the tools you need to enjoy cycling. </p>
+			<p class="header-text">Our vision is a city where cycling is safe, widespread, and accessible to people of all comfort levels.</p>
+			<!--CREDIT-->
+			<p class="header-credit">Image Credit: danjrusso on unsplash.com</p>
+		</div>
+		<!--IMAGE-->
+		<div>
+			<img src="images/danjrusso_Unsplash.jpeg" alt="close-up of bike handles, person on bike" class="hero-img">
+		</div>
+	</section>
+
+
+	<!--HIGHLIGHTS-->
+	<section id="highlights">
+		<div class="highlights-left">
+			<!--LEFT-->
+			<div>
+				<h2>Highlights</h2>
+			</div>
+			<div class="images">
+				<!--bikes&parts-->
+				<div class="highlight-image">
+					<div class="img-txt">
+						<p class="img-title">Bikes & Parts ></p>
+						<p class="img-credit">Image Credit: wayneb250 on unsplash.com</p>
+					</div>
+					<img src="images/Group 55.png" alt="bike gears">
+				</div>
+				<!--ourworkshop-->
+				<div class="highlight-image">
+					<div class="img-txt">
+						<p class="img-title">Our Workshop ></p>
+						<p class="img-credit">Image Credit: Jan Kopriva on pexels.com</p>
+					</div>
+					<img src="images/Group 56.png" alt="spinning bike gears and chain">
+				</div>
+				<!--events-->
+				<div class="highlight-image">
+					<div class="img-txt">
+						<p class="img-title">Events ></p>
+						<p class="img-credit">Image Credit: Dom J on pexels.com</p>
+					</div>
+					<img src="images/Group 57.png" alt="crowded bike rack in a street">
+				</div>
+				<!--bikeroutes-->
+				<div class="highlight-image">
+					<div class="img-txt">
+						<p class="img-title">Bike Routes ></p>
+						<p class="img-credit">Image Credit: Tima Miroshichenko on pexels.com</p>
+					</div>
+					<img src="images/Group 58.png" alt="bike sign">
+				</div>
+				<!--socialmedia-->
+				<div class="highlight-image">
+					<div class="img-txt">
+						<p class="img-title">Social Media ></p>
+						<p class="img-credit">Image Credit: Bianca Gasparoto on pexels.com</p>
+					</div>
+					<img src="images/Group 59.png" alt="person riding bike, feet off pedals">
+				</div>
+				<!--regulationssafety-->
+				<div class="highlight-image">
+					<div class="img-txt">
+						<p class="img-title">Regulations & Safety ></p>
+						<p class="img-credit">Image Credit: Cristiana Raluca on pexels.com</p>
+					</div>
+					<img src="images/Group 60.png" alt="bike painted on ground with leaves">
+				</div>
+			</div>
+		</div>
+
+		<!--RIGHT-->
+		<div class="highlights-right">
+			<div>
+				<h2>Blog Posts</h2>
+			</div>
+			<div>
+				<div class="blog">
+					<img src="images/hat2.jpg" alt="bike edmonton hat" class="blog-img">
+					<p class="blog-caption">Bike Edmonton<br>Cycling Caps!</p>
+					<p class="blog-date">Oct. 26, 2024</p>
+				</div>
+				<div class="blog">
+					<img src="images/Untitled+drawing.png" alt="graphic reading 'It's AGM time! BIKE edmonton'" class="blog-img">
+					<p class="blog-caption">Bike Edmonton's Annual<br>General Meeting</p>
+					<p class="blog-date">Oct. 22, 2024</p>
+				</div>
+				<div class="blog">
+					<img src="images/Loaded+trailer+-+South+Shop+-+2020.jpg" alt="cart with bins in front of bike edmonton shop" class="blog-img">
+					<p class="blog-caption">Our South Shop<br>is Closing</p>
+					<p class="blog-date">Jun 13, 2024</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--EVENTS-->
+	<section id="events">
+		<div>
+			<div>
+				<h2>Events</h2>
+			</div>
+			
+			<div class="events-txt">
+				<p>Find out about events and get involved.</p>
+			</div>
+			
+			<div>
+				<div class="star-line">
+					<div class="star"> <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#ACD0D6"/>
+					</svg> </div>
+					<p class="note">indicates a past event</p>
+				</div>
+				<div class="star-line">
+					<div class="star"> <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#F47420"/>
+					</svg> </div>
+					<p class="note">indicates an upcoming event</p>
+				</div>
+				<div>
+					<p class="note-blue">*click a date to find out more</p>
+				</div>
+			</div>
+
+			<!--SEARCH-->
+			<div>
+				<p class="event-search">Search for an event:</p>
+				<div class="event-search-bar">
+					<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M12.6667 12.6667L11.5 11.5M12.0833 6.54167C12.0833 9.60224 9.60224 12.0833 6.54167 12.0833C3.48109 12.0833 1 9.60224 1 6.54167C1 3.48109 3.48109 1 6.54167 1C9.60224 1 12.0833 3.48109 12.0833 6.54167Z" stroke="#F47420" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</div>
+			</div>
+		</div>
+
+		<!--CALENDER-->
+		<div class="calender">
+			<img src="images/Frame 16.png" alt="november calender indicating events">
+		</div>
+	</section>
+
+
+	<!--FOOTER-->
+	<section id="footer">
+		<!--LEFT-->
+		<div>
+			<div class="foot-title">
+				<p>Our vision is a city where cycling is safe, widespread, and accessible to people of all comfort levels.</p>
+			</div>
+			<div class="foot-text">
+				<p>Bike Edmonton acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway / Saulteaux / Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community. We acknowledge that we are all treaty people and we are committed to equity and justice for all our relations.</p>
+			</div>
+		</div>
+
+		<!--RIGHT-->
+		<div class="foot-right">
+			<div>
+				<p class="address">PO Box 1819 Station Main<br>Edmonton, Alberta<br>T5J 2P2</p>
+				<p class="address">info@bikeedmonton.ca<br>president@bikeedmonton.ca</p>
+			</div>
+			<div>
+				<img src="images/Twitter.png" alt="twitter logo" class="media">
+				<img src="images/Instagram.png" alt="instagram lgo" class="media">
+				<img src="images/Facebook.png" alt="facebook logo" class="media">
+				<img src="images/Youtube.png" alt="youtube logo" class="media">
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
 
 </body>
 </html>
