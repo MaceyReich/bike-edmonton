@@ -1,0 +1,502 @@
+
+/*NAVBAR*/
+	#web-nav {
+		padding: 3px 80px 3px 80px;
+		background-color: #04387C;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		width: 75px;
+	}
+
+	#web-nav a {
+		text-decoration: none;
+		color: #FFF;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 0.48px;
+	}
+
+	#web-nav li {
+	    text-decoration: none;
+	    display: inline;
+	    margin-left: 42px;
+	}
+
+	#web-nav a:hover {
+		color: #F47420;
+	}
+
+	#search {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.search {
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+
+	.searchbar {
+		width: 200px;
+		border-radius: 100px;
+		background-color: #EAF3F3;
+		margin-left: 14px;
+		padding: 0px 13px;
+		display: flex;
+		align-items: center;
+	}
+
+
+
+/*HEADER*/
+
+	#header{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.text {
+		padding: 99px 83px;
+	}
+
+	.text h1 {
+		color: #F47420;
+		font-family: "Afacad", sans-serif;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		margin-bottom: 45px;
+	}
+
+	.header-text {
+		color: #04387C;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 30px;
+	}
+
+	.header-credit {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+		margin-top: 104px;
+	}
+
+	.hero-img {
+		width: 820px;
+		height: 752px;
+	}
+
+
+
+/*HIGHLIGHTS*/
+	#highlights {
+		padding: 72px 80px;
+		background-color: #272727;
+		display: grid;
+		grid-template-columns: 9fr 2fr;
+	}
+
+	.images {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+	}
+
+	.highlights-left h2 {
+		color: #F47420;
+		font-family: "Afacad", sans-serif;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+		letter-spacing: 0.84px;
+		margin-bottom: 39px;
+	}
+
+	.highlight-image {
+		position: relative;
+  		text-align: left;
+  		margin-right: 21px;
+  		margin-bottom: 21px;
+	}
+
+	.img-txt {
+		position: absolute;
+  		bottom: 22px;
+  		left: 22px;
+	}
+
+	.img-title {
+		color: #F47420;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 800;
+		line-height: 22px;
+	}
+
+	.img-credit {
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 10px;
+	}
+
+
+	.highlights-right h2 {
+		color: #F47420;
+		font-family: "Afacad", sans-serif;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+		letter-spacing: 0.84px;
+	}
+
+	.blog {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+	}
+
+	.blog-img {
+		width: 167px;
+		height: 120px;
+		border-radius: 30px;
+		margin-top: 28px;
+	}
+
+	.blog-caption {
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.blog-date {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 10px;
+	}
+
+
+
+/*EVENTS*/
+	#events {
+		background-color: #EAF3F3;
+		padding: 72px 80px 83px 80px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#events h2 {
+		color: rgba(4, 56, 124, 0.90);
+		font-family: "Afacad", sans-serif;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+		letter-spacing: 0.84px;
+		margin-bottom: 50px;
+	}
+
+
+	.events-txt {
+		color: #272727;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+		margin-bottom: 77px;
+	}
+
+	.note {
+		color: #272727;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 15px;
+	}
+
+	.note-blue {
+		color: #04387C;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 15px;
+		margin-bottom: 294px;
+	}
+
+	.star-line {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+	}
+
+	.star {
+		margin-right: 6px;
+	}
+
+	.event-search {
+		color: rgba(4, 56, 124, 0.90);
+		font-family: "Albert Sans", sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin-bottom: 7px;
+	}
+
+	.event-search-bar {
+		width: 167px;
+		height: 32px;
+		border-radius: 100px;
+		border: 1px solid #04387C;
+		background: #FFF;
+		padding: 0px 13px;
+		display: flex;
+		align-items: center;
+	}
+
+
+
+/*FOOTER*/
+	#footer {
+		padding: 143px 80px 107px 80px;
+		background-color: #04387C;
+		display: grid;
+		grid-template-columns: 8fr 2fr;
+		column-gap: 206px;
+	}
+
+
+	.foot-title {
+		color: #FFF;
+		font-family: "Afacad", sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 35px;
+		letter-spacing: 0.72px;
+	}
+
+	.foot-text {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 25px;
+	}
+
+	.address {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+	.media {
+		margin-right: 9px;
+		margin-top: 42px;
+	}
+
+
+
+@media screen and (min-width: 481px) {
+
+	#mobile-nav {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+	/*NAVBAR*/
+	#web-nav {
+		display: none;
+	}
+
+	#mobile-nav {
+		padding: 14px 25px 14px 25px;
+		background-color: #04387C;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+
+	.logo {
+		width: 40px;
+	}
+
+
+	/*HEADER*/
+	#header{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.hero-img {
+		width: 100%;
+		height: 360px;
+	}
+
+	.text {
+			padding: 21px 25px;
+	}
+
+	.text h1 {
+		font-size: 32px;
+		letter-spacing: 0.96px;
+		margin-bottom: 21px;
+	}
+
+	.header-text {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+	.header-credit {
+		display: none;
+	}
+
+
+
+	/*HIGHLIGHTS*/
+	#highlights {
+		padding: 58px 25px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.images {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.highlights-right {
+		display: none;
+	}
+
+
+	/*EVENTS*/
+	#events {
+		background-color: #EAF3F3;
+		padding: 40px 25px 57px 25px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#events h2 {
+		margin-bottom: 14px;
+	}
+
+	.events-txt {
+		margin-bottom: 50px;
+	}
+
+	.event-search-bar {
+		width: 343px;
+	}
+
+	.star-line {
+		display: none;
+	}
+
+	.note-blue {
+		display: none;
+	}
+
+	.calender {
+		display: none;
+	}
+
+
+	/*FOOTER*/
+	#footer {
+		padding: 25px 28PX;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.foot-text {
+		display: none;
+	}
+
+	.foot-title {
+		font-size: 16px;
+		line-height: 22px;
+		letter-spacing: 0.48px;
+		margin-bottom: 20px;
+	}
+
+	.address {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+	.foot-right {
+		display: flex;
+		flex-direction: row;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
