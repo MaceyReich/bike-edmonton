@@ -1,0 +1,553 @@
+
+/*NAVBAR*/
+	#web-nav {
+		padding: 3px 80px 3px 80px;
+		background-color: #04387C;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		width: 75px;
+	}
+
+	#web-nav a {
+		text-decoration: none;
+		color: #FFF;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 0.48px;
+	}
+
+	#web-nav li {
+	    text-decoration: none;
+	    display: inline;
+	    margin-left: 42px;
+	}
+
+	#web-nav a:hover {
+		color: #F47420;
+	}
+
+	#search {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.search {
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+
+	.searchbar {
+		width: 200px;
+		border-radius: 100px;
+		background-color: #EAF3F3;
+		margin-left: 14px;
+		padding: 0px 13px;
+		display: flex;
+		align-items: center;
+	}
+
+
+/*HEADER*/
+	#header {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.header {
+		padding: 75px 21px 23px 80px;
+	}
+
+	.header h1 {
+		color: #F47420;
+		font-family: "Afacad", sans-serif;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		margin-bottom: 33px;
+	}
+
+	.header-text {
+		color: #04387C;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	.header-credit {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+		margin-top: 30px;
+	}
+
+	.header-img {
+		width: 440px;
+		height: 386px;
+		flex-shrink: 0;
+	}
+
+
+/*VISION*/
+	#vis-mis-pur {
+		background-color: #04387C;
+		padding: 57px 0px 85px 0px;
+		display: grid;
+	}
+
+	#vis-mis-pur h3 {
+		color: #FFF;
+		font-family: Afacad;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 0.96px;
+	}
+
+	#vis-mis-pur p {
+		color: #ACD0D6;
+		font-family: "Albert Sans";
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+
+	.vision {
+		grid-area: 1 / 1 / span 1 / span 1;
+		padding: 0px 95px 180px 95px;
+	}
+
+	.vision h3  {
+		text-align: center;
+		margin-bottom: 91px;
+	}
+
+	.mission {
+		grid-area: 1 / 2 / span 1 / span 1;
+		padding: 0px 95px 180px 95px;
+	}
+
+	.mission h3  {
+		text-align: center;
+		margin-bottom: 66px;
+	}
+
+	.purpose {
+		grid-area: 2 / 1 / span 1 / span 2;
+		padding: 0px 85px 0px 85px;
+	}
+
+	.purpose h3  {
+		text-align: center;
+		margin-bottom: 83px;
+	}
+
+	.purpose-txt {
+		display: grid;
+	}
+
+	.left {
+		grid-area: 1 / 1 / span 1 / span 1;
+	}
+
+	.right {
+		margin-left: 56px;
+		grid-area: 1 / 2 / span 1 / span 1;
+	}
+
+
+/*LOCATION*/
+	#location {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.location-img {
+		width: 459px;
+		height: 625px;
+	}
+
+	.location-txt {
+		background-color: #272727;
+		padding: 59px 80px;
+	}
+
+	.location-txt h2 {
+		color: #F47420;
+		font-family: "Afacad", sans-serif;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+		letter-spacing: 0.84px;
+		margin-bottom: 36px;
+	}
+
+	.location-descrip {
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.contact-title {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 15px;
+		margin-top: 29px;
+	}
+
+	.contact-info {
+		color: #EAF3F3;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 15px;
+	}
+
+
+
+/*HISTORY*/
+	#history {
+		background-color: #EAF3F3;
+		padding: 80px;
+	}
+
+	.history-txt h2 {
+		color: #04387C;
+		font-family: "Afacad", sans-serif;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;		
+		letter-spacing: 0.84px;
+		margin-bottom: 26px;
+	}
+
+	.history-txt p {
+		color: #272727;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.history-sections p {
+		color: #272727;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+	}
+
+	.history-sections {
+		border-radius: 10px;
+		background-color: #ACD0D6;
+		padding: 18px 54px 18px 31px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 26px;
+		min-width: 375px;
+		max-width: 550px;
+		flex: 1;
+	}
+
+	.half {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+	}
+
+	.sections {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+
+
+/*FOOTER*/
+	#footer {
+		padding: 143px 80px 107px 80px;
+		background-color: #04387C;
+		display: grid;
+		grid-template-columns: 8fr 2fr;
+		column-gap: 206px;
+	}
+
+
+	.foot-title {
+		color: #FFF;
+		font-family: "Afacad", sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 35px;
+		letter-spacing: 0.72px;
+	}
+
+	.foot-text {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 25px;
+	}
+
+	.address {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+	.media {
+		margin-right: 9px;
+		margin-top: 42px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 481px) {
+
+		#mobile-nav {
+			display: none;
+		}
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+	/*NAVBAR*/
+	#web-nav {
+		display: none;
+	}
+
+	#mobile-nav {
+		padding: 14px 25px 14px 25px;
+		background-color: #04387C;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+
+	.logo {
+		width: 40px;
+	}
+
+
+
+	/*HEADER*/
+	.header-img {
+		display: none;
+	}
+
+	.header {
+		padding: 29px 25px 45px 25px;
+	}
+
+	.header-credit {
+		display: none;
+	}
+
+	.header h1 {
+		font-size: 32px;
+		letter-spacing: 0.96px;
+		margin-bottom: 15px;
+	}
+
+
+	/*VISION*/
+	#vis-mis-pur {
+		background-color: #04387C;
+		padding: 50px 25px 70px 25px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#vis-mis-pur h3 {
+		font-size: 28px;
+		letter-spacing: 0.84px;
+	}
+
+	.vision {
+		padding: 0px;
+	}
+
+	.vision h3  {
+		text-align: start;
+		margin-bottom: 8px;
+	}
+
+	.mission {
+		padding: 0px;
+	}
+
+	.mission h3  {
+		text-align: start;
+		margin-bottom: 8px;
+	}
+
+	.purpose {
+		padding: 0px;
+	}
+
+	.purpose h3  {
+		text-align: start;
+		margin-bottom: 8px;
+	}
+
+	.purpose-txt {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.left {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.right {
+		display: flex;
+		flex-direction: column;
+		margin: 0px;
+	}
+
+
+	/*LOCATION*/
+	#location {
+		display: none;
+	}
+
+
+
+	/*HISTORY*/
+	#history {
+		padding: 60px 25px 70px 25px;
+	}
+
+	.history-sections p {
+		font-size: 12px;
+	}
+
+	.sections {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.history-sections {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 11px;
+		max-width: 343px;
+		min-width: 150px;
+		padding: 15px 30px;
+	}
+
+	.img-hidden {
+		display: none;
+	}
+
+	.plus {
+		width: 12px;
+	}
+
+
+	/*FOOTER*/
+	#footer {
+		padding: 25px 28PX;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.foot-text {
+		display: none;
+	}
+
+	.foot-title {
+		font-size: 16px;
+		line-height: 22px;
+		letter-spacing: 0.48px;
+		margin-bottom: 20px;
+	}
+
+	.address {
+		color: #ACD0D6;
+		font-family: "Albert Sans", sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+	.foot-right {
+		display: flex;
+		flex-direction: row;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
